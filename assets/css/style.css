@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Slab:wght@100;300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+}
+a {
+    text-decoration: none;
+}
+ul,ol {
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --font_1: 'Roboto Condensed', sans-serif;
+    --font_2: 'Roboto', sans-serif;
+}
+html, body {
+    overflow-x: hidden;
+}
+/* nav start */
+nav {
+    text-transform: uppercase;
+    background: #e5e5e5;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+nav .navbar-brand {
+    font-weight: 700;
+    font-size: 40px;
+    font-family: var(--font_1);
+}
+nav ul li {
+    margin: 0 0 0 20px;
+    padding: 20px 0;
+    font-weight: 700;
+    
+}
+nav ul li a {
+    font-size: 16px;
+    font-family: var(--font_1);
+    color: #4e4e4e !important;
+    transition: .4s;
+}
+nav ul li a:hover {
+    color: #1abb9c !important;
+}
+/* nav end */
+/* banner start */
+.banner_part {
+    background: url(../images/banner.png) no-repeat center;
+    background-size: cover;
+}
+.banner_part .ban_text_con {
+    padding: 200px 0;
+}
+.banner_part .ban_text_con h1 {
+    font-size: 40px;
+    font-weight: 700;  
+    color: #f3f3f3;  
+}
+.banner_part .ban_text_con p {
+    font-size: 32px;
+    font-weight: 700;
+    color: #a8a8a8;    
+}
+.banner_part .btn a {
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+}
+/* banner end */
+/* Service start */
+.Service_part {
+    padding: 60px 0;
+    background: #f7f7f7;
+}
+.Service_part .Service_con h2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #4e4e4e;
+}
+.Service_part .Service_con p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #616161;
+}
+/* Service end */
+/* letest work start */
+.latest_work_part {
+    background: #f7f7f7;
+}
+.latest_work_part .title h2 {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: var(--font_1);
+    margin: 40px 0 0 0;
+}
+.latest_work_part .letest_con .img img {
+    width: 100%;
+}
+.latest_work_part .letest_con .text h2 {
+    font-size: 18px;
+    font-weight: 800;
+    color: #4e4e4e;
+}
+.latest_work_part .letest_con .text p {
+    font-size: 13px;
+    font-weight: 400;
+    color: #a8a8a8;
+    margin: 13px 0 25px 0;
+}
+.latest_work_part .letest_con .text .details {
+    font-size: 14px;
+    font-weight: 400;
+    color: #5c5c5c;
+    margin: 0 0 60px 0;
+    font-family: var(--font_2);
+}
+/* letest work end */
+/* testi start */
+.testi_part {
+    background: #efefef;
+    padding: 50px 0 60px 0;
+}
+.testi_part .testi_con .img {
+    margin: 0 0 20px 0;
+}
+.testi_part .testi_con .text p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #a1a1a1;
+    width: 850px;
+    margin: auto;
+}
+/* testi end */
+/* footer start */
+footer {
+    padding: 50px 0;
+    background: #1d1d1d;
+    color: #cacaca;
+}
+footer .title h2 {
+    font-size: 22px;
+    font-family: var(--font_1);
+    color: #6c6c6c;
+    margin: 0 0 30px 0;
+}
+footer .title p {
+    font-size: 14px;
+    font-family: var(--font_2);
+    color: #cacaca;
+    margin: 0 0 35px 0;
+}
+footer .foot_con .address .icon i {
+    color: #a89574;
+}
+footer .foot_con .address p {
+    font-size: 14px;
+    font-family: var(--font_2);
+    color: #cacaca;
+}
+footer .foot_con .address .pho_nam {
+    margin: 13px 0 15px 0;
+}
+footer .twitter_con .twitte i {
+    color: #a89574;
+}
+footer .twitter_con p {
+    font-size: 14px;
+    font-family: var(--font_2);
+    color: #cacaca;
+}
+footer .twitte_pra_2 {
+    color: #a89574;
+    margin: 30px 0;
+}
+footer .post_con p {
+    font-size: 14px;
+    font-family: var(--font_2);
+}
+footer .post_con .two {
+    margin: 30px 0;
+}
+footer .about_con p {
+    font-size: 14px;
+    width: 245px;
+    font-family: var(--font_2);
+}
+footer .about_con .bottom {
+    margin: 30px 0;
+}
+.pre_footer p {
+    margin: 20px 0;
+    font-size: 14px;
+    font-family: var(--font_2);
+}
+/* footer end */
